@@ -19,7 +19,7 @@ my_scape_string = '\\tEste un string \n escapado'
 print(my_scape_string)
 '''
 #FORMATEO#
-
+'''
 name, surname, age= 'Sara','Gonzalez', 25
 print('Mi nombre es {} {} y mi edad es {}'.format(name,surname,age))
 print('Mi nombre es %s %s y mi edad es %s' %(name,surname,age))
@@ -27,9 +27,29 @@ print('Mi nombre es ' + name + '' + surname + 'y mi edad es ' + str(age))
 
 #inferencia#
 print(f'Mi nombre es {name} {surname} y mi edad es {age}')
-
+'''
 #desmpaquetado de caracteres#
-language ="Python"
+language ="python"
 a, b, c, d, e, f= language
 print(a)
 print(b)
+
+# Divisón
+language_slice = language[1:3]
+print(language_slice)
+
+# Reverse
+#reversed_languaje= language[::-1]
+#print(reversed_languaje)
+
+# Funciones
+print(language.capitalize()) 
+print(language.upper()) 
+print(language.count('t')) 
+print(language.isnumeric()) 
+print('1'.isnumeric()) 
+print(language.lower()) 
+print(language.upper().isupper()) 
+
+print(language.startswith('py')) 
+print('Py' == 'py') 
