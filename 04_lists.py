@@ -65,8 +65,23 @@ print(my_pop_element)
 del my_list[2]
 print(my_list)
 
-my_list.clear() #no habrá ningun elemneto de la lista
+#copiar una lista
+my_new_list = my_list.copy()
+
+my_list.clear() #no habrá ningun elemento de la lista
 print(my_list)
+print(my_new_list)
+
+my_new_list.reverse()
+print(my_new_list)
+
+my_new_list.sort() #ordena, criterios para ordenar de mayor a menor
+print(my_new_list)
+
+# sublistas
+print(my_new_list)
+
+
 
 my_other_list.insert(1, "NARANJA") #en que posicion quiere que insertemos el valor
 print(my_other_list)
