@@ -1,5 +1,3 @@
-## Tuples, conjunto de valores inmutables, elementos que ya se tienen guardados  ##
-
 #definir una tupla, con su palabra resrvada tuple
 my_tuple = tuple()
 my_other_tuple = () #2da forma de definir una tupla

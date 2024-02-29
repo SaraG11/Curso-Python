@@ -97,5 +97,3 @@ my_list = ['Hola Py'] #esto ya es una lista con poner los corchetes
 print(my_list)
 print(type(my_list))
 """
-
-
