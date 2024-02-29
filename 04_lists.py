@@ -83,7 +83,7 @@ print(my_new_list)
 
 
 
-my_other_list.insert(1, "NARANJA") #en que posicion quiere que insertemos el valor
+my_other_list.insert(1, "NARANJA") #en que posicion quiere que insertemos el valor de 
 print(my_other_list)
 
 my_other_list[1] = 'Rojo'
