@@ -40,5 +40,7 @@ print("Nombre" in my_dict) #true
 print(my_dict.items()) #tenemos un listado de cada uno de las items
 print(my_dict.keys()) #Las claves de los diccionarios
 print(my_dict.values())# Los valores de las claves de los diccionarios
-print(my_dict.fromkeys())
+print(my_dict.fromkeys()) #estudiar
+
+
 
