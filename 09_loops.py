@@ -30,3 +30,31 @@ my_list = [25, 24, 62, 52, 30, 30, 17]
 for element in my_list:
     print(element)
 
+my_tuple = (25, 1.53, "Sara", "Gonzalez", "Sara")
+
+for element in my_tuple:
+    print(element)
+
+my_set = {"Sara", "Gonzalez", 25}
+
+for element in my_set:
+    print(element)
+
+my_dict = {"Nombre": "Sara", "Apellido": "Gonzalez", "Edad": 25, 1: "Python"}
+
+for element in my_dict:
+    print(element)
+    if element == "Edad":
+        break
+    print("Se ejecuta")
+else:
+    print("El bucle for para mi diccionario ha finalizado")
+
+
+for element in my_dict:
+    print(element)
+    if element == "Edad":
+        continue
+    print("Se ejecuta")
+else:
+    print("El bucle for para mi diccionario ha finalizado")

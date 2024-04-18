@@ -26,7 +26,7 @@ print('Mi nombre es %s %s y mi edad es %s' %(name,surname,age))
 print('Mi nombre es ' + name + '' + surname + 'y mi edad es ' + str(age))
 
 #inferencia#
-print(f'Mi nombre es {name} {surname} y mi edad es {age}')
+print(f'Mi nombre es {name} {surname} y mi edad es {age}') # tipo de formateo se refiere la f
 '''
 #desmpaquetado de caracteres#
 language ="python"
