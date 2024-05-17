@@ -32,12 +32,83 @@ fizzbuzz()
       las letras de otra palabra inicial.
     - NO hace falta comprobar que ambas palabras existan.
     - Dos palabras exactamente iguales no son anagrama.
-'''
 
-def is_anagram(word_one, word_two):
+    def is_anagram(word_one, word_two):
     if word_one.lower() == word_two.lower():
         return False
-    return word_one == word_two
+    return sorted(word_one.lower()) == sorted(word_two.lower())
 
 
 print(is_anagram('Amor', 'Roma'))
+'''
+
+'''
+FIBONACCI
+Escribe un programa que imprima los 50 primeros números de la sucesión
+de Fibonacci empezando en 0.
+- La serie Fibonacci se compone por una sucesión de números en
+  la que el siguiente siempre es la suma de los dos anteriores.
+  0, 1, 1, 2, 3, 5, 8, 13...
+
+
+def fibonacci():
+    prev = 0
+    next = 1
+
+    for index in range(0, 51):
+        print(prev)
+
+        fib = prev + next
+        prev = next
+        next = fib
+
+fibonacci()
+'''
+
+'''
+¿es un numero primo?
+Escribe un programa que se encargue de comprobar si un número es o no primo.
+Hecho esto, imprime los números primos entre 1 y 100.
+- Es un numero natural +
+- Divisible exactamente entre dos naturales (por el mismo numero y numero 1)
+1, solo es entre si mismo, y no entre dos numeros (no es primo)
+2, divisible entre 1 y entre 2 
+Solo el 2 es par y es numero primo los demás no. 
+
+
+def num_prime():
+    for number in range(1, 101):
+        
+        if number >= 2: #los numeros negativos no son numeros primos y el uno tampoco
+            is_divisible = False
+
+            for index in range(2, number):
+                if number % index == 0:
+                    is_divisible = True
+                    break
+
+            if not is_divisible:
+                print(number)
+
+num_prime()
+'''
+
+
+'''
+INVIRTIENDO CADENAS
+
+Crea un programa que invierta el orden de una cadena de texto
+sin usar funciones propias del lenguaje que lo hagan de forma automática.
+- Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+'''
+
+def reverse(text):
+    text_len = len(text)
+    #print(text_len)
+    reverse_txt = ""
+
+    for index in range(0, text_len):
+        reverse_txt += text[text_len - index - 1]
+    return reverse_txt
+
+print(reverse('Adios'))
