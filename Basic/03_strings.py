@@ -31,25 +31,25 @@ print(f'Mi nombre es {name} {surname} y mi edad es {age}') # tipo de formateo se
 #desmpaquetado de caracteres#
 language ="python"
 a, b, c, d, e, f= language
-print(a)
-print(b)
+# print(a)
+# print(b)
 
 # Divisón
-language_slice = language[1:3]
-print(language_slice)
+language_slice = language[1:3] #Cuenta las letras que hay entre el 1 y el 3 sin contar el 3
+# print(language_slice)
 
 # Reverse
-#reversed_languaje= language[::-1]
-#print(reversed_languaje)
+reversed_languaje= language[::-1] #muestra el contenido de la variable al reves
+# print(reversed_languaje)
 
 # Funciones
-print(language.capitalize()) 
-print(language.upper()) 
-print(language.count('t')) 
-print(language.isnumeric()) 
-print('1'.isnumeric()) 
-print(language.lower()) 
-print(language.upper().isupper()) 
+# print(language.capitalize()) #pone la primera letra en mayuscula
+# print(language.upper()) #todo en mayusculas
+# print(language.count('t'))  #cuaenta cuantas veces aparece la letra 't'
+# print(language.isnumeric()) #verifica si la cadena es un numero
+# print('1'.isnumeric()) #verifica si la cadena es un numero
+# print(language.lower()) #todo en minusculas
+# print(language.upper().isupper()) #verifica si la cadena esta en mayusculas
 
-print(language.startswith('py')) 
+print(language.startswith('py')) #comprueba si la cadena empieza con 'py'
 print('Py' == 'py') 
