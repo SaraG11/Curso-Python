@@ -27,18 +27,19 @@ name, subname, alias, edad = 'Sara', 'Gonzalez', 'SG', 25
 #print("Me llamo:", name, subname, 'Mi edad es:', edad, 'Mi alias es:', alias )
 
 #Input
-##first_name = input('¿Cual es tu nombre?: ')
-##age = input('¿Cuantos años tienes? ')
 '''
-print(name)
-print(edad)
+first_name = input('¿Cual es tu nombre?: ')
+age = input('¿Cuantos años tienes? ')
 
-#cabiamos su tipo
-name= 35
-age= 'Nayeli'
 print(name)
 print(edad)
 '''
+ 
+#cabiamos su tipo
+# name= 35
+# age= 'Nayeli'
+# print(name)
+# print(edad)
 
 #Forzamos el tipo
 adress: str = 'Mi direccion'
